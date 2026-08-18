@@ -22,5 +22,5 @@ postcss >= 8.4.24
 # External APIs & Environment Variables Required for Deployment
 # - NEWS_API_KEY (GNews API Key)
 # - GEMINI_API_KEY (Google Gemini API Key)
-# - GEMINI_MODEL (Optional: e.g. gemini-2.0-flash, gemini-2.5-flash)
+# - GEMINI_MODEL (Optional: e.g. gemini-3.6-flash, gemini-3.6-flash)
 # - PORT (Automatically set by Render Web Service)
