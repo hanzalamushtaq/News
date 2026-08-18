@@ -4,7 +4,8 @@
   "private": true,
   "description": "NewsPulse AI Dispatch & Intelligence Assistant",
   "scripts": {
-    "postinstall": "npm install --prefix backend && npm install --prefix frontend",
+    "postinstall": "npm install --include=dev --prefix backend && npm install --include=dev --prefix frontend",
+
     "build": "npm run build --prefix frontend",
     "start": "npm start --prefix backend",
     "dev": "node --watch backend/server.js"
