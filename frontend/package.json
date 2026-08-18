@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "node -e \"try{require('child_process').execSync('chmod +x node_modules/.bin/*')}catch(e){}\" && vite build",
+
+
 
     "preview": "vite preview"
   },
